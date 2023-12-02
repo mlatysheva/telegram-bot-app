@@ -1,0 +1,9 @@
+<form class="centered form">
+  <h2 class="mb">Feedback</h2>
+  <textarea 
+    class="form-control"
+    placeholder="Leave your feedback"
+    [value]="feedback()"
+    (input)="handleChange($event)"
+  ></textarea>
+</form>
